@@ -26,3 +26,18 @@ h2.sub-heading {
     color: red;
 }
 
+.food p.burger {
+    background-color: blue;
+}
+
+.top-block h2{
+    color: brown;
+}
+
+.top-block p{
+    font-style: italic;
+}
+
+.top-block button{
+    background-color: pink;
+}
