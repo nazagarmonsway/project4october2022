@@ -11,23 +11,32 @@
     <header></header>
     <h1>homepage</h1>
     <main>
-        <section class="top-block">
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem, ipsum dolor. </p>
-            <button>hello world</button>
-        </section>
+      <!-- BEM -->
+      <section class="block">
+        <h2 class="block__header">Lorem, ipsum dolor.</h2>
+        <p class="block__text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates,
+          facilis.
+        </p>
+        <div class="block__content">
+          <p class="block__content__paragraph">Lorem ipsum dolor sit amet.</p>
+          <p
+            class="block__content__paragraph block__content__paragraph--warning"
+          >
+            Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+        <button class="block__button block__button--danger">click me</button>
+        <button class="block__button block__buttin--default">cancel</button>
+      </section>
 
-<!-- B.E.M -->
-
-        <section class="food" >
-            <h3 id="heading-3" class="subheading">Lorem, ipsum dolor.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <p class="burger">Lorem ipsum dolor sit amet.</p>
-            <p class="pizza fruit" id="fruit" style="background-color: pink;">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        </section>
-
-
+      <section class="news">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quae.</p>
+        <button>click</button>
+      </section>
     </main>
+
     <footer></footer>
   </body>
 </html>

@@ -1,41 +1,37 @@
+.block {
+    background-color: aquamarine;
+}
 
-/* 0 1 1  (has higher specificity because it has type selector also*/
-p.burger{
+/* .block h2 */
+.block__header {
+    color: white;
+}
+
+
+/* .block p */
+.block__text {
+    color: darkkhaki;
+}
+
+
+/* .block button */
+.block__button {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.block__button--danger {
     background-color: red;
 }
 
-/* 0 1 0 */
-.burger{    
-    background-color: pink;
+.block__button--default {
+background-color: darkgray;
 }
 
-/* 1 0 1 */
-h3#heading-3 {
-    background-color: burlywood;
-}
-
- 
-/* 1 0 0  */
-#heading-3 {
-    background-color: violet;
-}
-
-/* 1 1 1 */
-h3.subheading#heading-3 {
-    background-color: cornflowerblue;
-}
-
-/* 0 1 1 */
-p.pizza{
-    background-color: yellowgreen;
-}
-
-/* 0 2 1 */
-p.pizza.fruit { background-color: blue;
+.news p{
 
 }
 
-/* 1 0 0 */
-#fruit{
-    background-color: brown;
+.news button {
+    
 }
