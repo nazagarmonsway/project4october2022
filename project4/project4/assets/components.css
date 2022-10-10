@@ -1,0 +1,24 @@
+.btn {
+  /* font-style: italic; */
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.btn-success {
+  background-color: lightgreen;
+}
+
+.btn-info {
+  background-color: lightblue;
+}
+
+.btn-default {
+  background-color: darkgrey;
+}
+
+.btn-danger{
+    background-color: lightcoral;
+    font-style: italic;
+}
