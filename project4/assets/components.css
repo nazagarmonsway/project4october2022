@@ -1,3 +1,22 @@
+h1 {
+  /* color: slateblue; */
+  /* hex code 0 to 9 a to f, total is 16, 255 */
+  /* r g b */
+  /* color:#4aa65f9c ; */
+  /* color: #000000; */
+  /* opacity: 0.5; */
+  /* color:rgb(255,0,0) nunmbers go frmo 0 to 255 */
+  /* color: rgb(120, 190, 255); */
+  /* color: rgba(120,190,255,.8) alpha = opacity (frmo 0 to 1) */
+  /* color:hsl(0,100%,50%) */
+  /* html default font size is 16px */
+  /* em - this is based off the defaut sizing ie font-size: 2em would be 32 px*/
+  color: hsla(280, 100%, 50%, 1);
+  
+  font-size: 4em;
+}
+
 body {
-    background-color: bisque;
+  /* background-color: #6a5acd; */
+  background-color: hsl(300, 100%, 80%);
 }
